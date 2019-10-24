@@ -1,0 +1,4 @@
+<h2>いいね一覧</h2>
+<% @book.favorites.each do |favorite| %>
+<%= favorite.user.name %>
+<% end %>
